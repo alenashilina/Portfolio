@@ -2,6 +2,8 @@ The following text is a report on assignment which was done for the subject "Art
 
 ---
 
+# Comparison of the Performance of Regression Models Fitted to Energy Efficiency Dataset
+
 # Introduction
 Through the following work I compare different regression models’ performance on Energy Efficiency dataset. To find the best model and parameters for it such techniques as cross-validation and grid search were used. Regression models used for the analysis are following: Linear Regression, Decision Tree Regression, Random Forest Regression, Support Vector Regression and K-Nearest Neighbor Regression. To perform analysis such libraries were used as Pandas (for dataset importing), Numpy (for calculations) and SKlearn (for working with regression models). 
 
