@@ -12,12 +12,12 @@ Though I didn’t use fancy architectures and techniques I still could face many
 
 # Outline
 During this project explanatory article, I will describe:
--	[How I collected and processed data](),
--	[What model I used for training](),
--	[First results of training](),
--	[How I improved results with data augmentation](),
--	[Final results](),
--	[What I’ve learned while working on the project]().
+-	[How I collected and processed data](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Ingredients%20detection#collecting-data-and-data-preprocessing),
+-	[What model I used for training](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Ingredients%20detection#building-the-model),
+-	[First results of training](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Ingredients%20detection#first-results-of-training),
+-	[How I improved results with data augmentation](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Ingredients%20detection#improving-results-with-data-augmentation),
+-	[Final results](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Ingredients%20detection#training-with-adam-optimizer-and-final-discussions),
+-	[What I’ve learned while working on the project](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Ingredients%20detection#conclusions-and-what-ive-learned).
 
 # Collecting data and data preprocessing
 To collect data, I visited several big stores in Seoul like Home Plus, Lotte Mart and COSTCO as well as some smaller grocery stores. So no one would get too interested in “what I am doing there” I talked to staff and asked for permission to take pictures of food labels explaining it with having a school project (though in reality it is after-school one). In result I took more than 900 pictures of labels of various food products. However, some of them were poor quality (too blurry, not the whole label was visible etc.), therefore I had to discard those examples and got 841 pictures for my dataset. Examples of collected pictures are shown in the Figure 1 below.
