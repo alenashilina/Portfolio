@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Apr  9 23:45:29 2018
-
-@author: Alena
-"""
-
 
 #Importing libriaries
 import numpy as np
@@ -30,8 +24,8 @@ we are going to use and necessitated arguments.
 Then we fitting our clustering methods to a dataset and count the accurasy of how well
 our data was clustered, using function accuracy_count. Also we count V-measure. 
 Then plot the result and display accuracy, V-measure value and computational time.
-This part of code was taken from http://hdbscan.readthedocs.io/en/latest/comparing_clustering_algorithms.html
-and then modified for needs of our task.
+Some parts of the following code were inspired by
+http://hdbscan.readthedocs.io/en/latest/comparing_clustering_algorithms.html
 """
 def plot_clusters(data, algorithm, args, kwds):
     start_time = time.time()
@@ -88,9 +82,8 @@ original_labels = text_20ng.target
 
 """
 Extracting features from the training data using a sparse vectorizer
-This part of code was taken from
+Some parts of the following code were inspired by
 http://scikit-learn.org/stable/auto_examples/text/document_classification_20newsgroups.html#sphx-glr-auto-examples-text-document-classification-20newsgroups-py
-and then modified for needs of our task.
 """
 def size_mb(docs):
     return sum(len(s.encode('utf-8')) for s in docs) / 1e6
