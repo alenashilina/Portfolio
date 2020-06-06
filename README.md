@@ -15,5 +15,7 @@ This is the repository containing different Machine Learning related projects I 
     * [Regression 2018-1](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/School%20assignments/Regression%202018-1%20sklearn) (Scikit-learn)
     
     * [Wordcloud 2018-2](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/School%20assignments/Wordcloud%202018-2%20R) (R)
+    
+- [**Summarization with clustering**](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Summarization%20with%20clustering). This section includes a small project the main idea of which is to summarize Korean texts embedded with BERT using K-means clustering algorithm.
 
 - [**Tensorflow 2 practice**](https://github.com/alenashilina/Portfolio/tree/Ingredients-CV-project/Tensorflow%202%20practice). This section includes projects accomplished to practice Tensorflow 2 framework.
